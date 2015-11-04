@@ -55,7 +55,12 @@ endif
 " Load custom settings
 source ~/.vim/startup/mappings.vim
 
-" Pathogen
-
+" Pathogen plugin
 execute pathogen#infect()
-filetype plugin indent on
+
+" Set the editor to display the number in the left side
+set number
+
+" Try to set the badwolf theme
+colo badwolf
+
