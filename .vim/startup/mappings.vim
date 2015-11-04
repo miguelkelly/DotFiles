@@ -18,4 +18,7 @@ map <C-Tab> :tabnext<CR>
 imap <C-S-Tab> <ESC>:tabprivious<CR>
 imap <C-Tab> <ESC>:tabnext<CR>
 
-"quick pairs
+" Quick tuggle for Nerd Tree
+map <C-n> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
+imap <C-n> :NERDTreeToggle<CR>

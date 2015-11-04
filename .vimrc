@@ -14,6 +14,7 @@ runtime! debian.vim
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
 
+execute pathogen#infect()
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
 if has("syntax")
@@ -56,11 +57,16 @@ endif
 source ~/.vim/startup/mappings.vim
 
 " Pathogen plugin
-execute pathogen#infect()
 
 " Set the editor to display the number in the left side
 set number
 
 " Try to set the badwolf theme
 colo badwolf
+
+let mapleader=","
+
+set nocompatible
+set laststatus=2
+set t_Co=256
 
