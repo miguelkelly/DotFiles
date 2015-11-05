@@ -19,6 +19,6 @@ imap <C-S-Tab> <ESC>:tabprivious<CR>
 imap <C-Tab> <ESC>:tabnext<CR>
 
 " Quick tuggle for Nerd Tree
-map <C-n> :NERDTreeToggle<CR>
-nmap <C-n> :NERDTreeToggle<CR>
-imap <C-n> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
+nmap <C-t> :NERDTreeToggle<CR>
+imap <C-t> :NERDTreeToggle<CR>
