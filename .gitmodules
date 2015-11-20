@@ -1,0 +1,6 @@
+[submodule "powerline-shell"]
+	path = powerline-shell
+	url = git@github.com:milkbikis/powerline-shell.git
+[submodule "promptastic"]
+	path = promptastic
+	url = https://github.com/nimiq/promptastic.git
