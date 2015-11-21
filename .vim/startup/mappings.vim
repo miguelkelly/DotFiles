@@ -1,10 +1,10 @@
 no <down> ddp 
-no <left> <Nop>
-no <right> <Nop>
+no <left> :tabrewind<CR> 
+no <right> :tabnext<CR> 
 no <up> ddkP
 ino <down> <Nop>
-ino <left> <Nop>
-ino <right> <Nop>
+ino <left> <ESC>:tabrewind<CR> 
+ino <right> <ESC>:tabnext<CR> 
 noremap <F7> :set expandtab!<CR>
 ino <up> <Nop>
 

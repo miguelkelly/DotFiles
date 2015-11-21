@@ -3,7 +3,7 @@
 " settings, you should do it in this file (/etc/vim/vimrc), since debian.vim
 " will be overwritten everytime an upgrade of the vim packages is performed.
 " It is recommended to make changes after sourcing debian.vim since it alters
-" the value of the 'compatible' option.
+" he value of the 'compatible' option.
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
@@ -20,6 +20,10 @@ execute pathogen#infect()
 if has("syntax")
   syntax on
 endif
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -62,7 +66,7 @@ source ~/.vim/startup/mappings.vim
 set number
 
 " Try to set the badwolf theme
-colo badwolf
+colo molokai 
 
 let mapleader=","
 
@@ -71,9 +75,9 @@ set laststatus=2
 set t_Co=256
 
 " Setting the syntastic
-set statusline+=%warningmsg#
-set statusline+={SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%warningmsg#
+" set statusline+={SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
