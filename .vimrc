@@ -1,4 +1,3 @@
-" All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 " the call to :runtime you can find below.  If you wish to change any of those
 " settings, you should do it in this file (/etc/vim/vimrc), since debian.vim
 " will be overwritten everytime an upgrade of the vim packages is performed.
@@ -91,4 +90,9 @@ set tabstop=4
 set shiftwidth=4
 " On pressing Tab, insert 4 spaces
 set expandtab
+
+" All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
+
+
+
 
