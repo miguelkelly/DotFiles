@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/powerline"]
 	path = .vim/bundle/powerline
 	url = git@github.com:powerline/powerline.git
+[submodule ".vim/bundle/vim-codeschool"]
+	path = .vim/bundle/vim-codeschool
+	url = git@github.com:blockloop/vim-codeschool.git
+[submodule ".vim/bundle/vim-cursorword"]
+	path = .vim/bundle/vim-cursorword
+	url = git@github.com:itchyny/vim-cursorword.git
