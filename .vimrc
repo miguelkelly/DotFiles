@@ -31,7 +31,8 @@ python del powerline_setup
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 "if has("autocmd")
-"  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+"  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | 
+"  exe "normal! g'\"" | endif
 "endif
 
 " Uncomment the following to have Vim load indentation rules and plugins
@@ -93,5 +94,18 @@ set expandtab
 
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 
+" Adds a diferent color to the colum 80 so we know when we need to 
+" break the line.
+
+set cc=80
+
+set autoindent
 
 
+if !&scrolloff
+    set scrolloff=2
+endif
+if !&sidescrolloff
+    set sidescrolloff=5
+endif
+set display+=lastline

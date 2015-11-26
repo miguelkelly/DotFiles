@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-cursorword"]
 	path = .vim/bundle/vim-cursorword
 	url = git@github.com:itchyny/vim-cursorword.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
